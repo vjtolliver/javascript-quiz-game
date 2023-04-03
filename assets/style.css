@@ -1,0 +1,50 @@
+* {
+    /* background-color: lightcoral; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header {
+    background-color: darkred;
+    width: auto;
+    /* height: 50px; */
+    /* margin: 0; */
+    padding: 40px;
+}
+
+body {
+    background-color: lightcoral;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#start {
+    /* color: darkred; */
+    /* font-size: 65px; */
+    background-color: darkred;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+button #answer{
+    background-color: darkred;
+    border-radius: 30px;
+}
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: darkred;
+    /* margin-bottom: 0; */
+    padding: 20px;
+    /* flex: end; */
+}

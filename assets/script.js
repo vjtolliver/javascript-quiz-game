@@ -41,3 +41,7 @@ var questionsArr = [
     isCorrect: "A. This is an answer option"
 }
 ]
+var answerChoice = document.getElementById("#answer");
+var userChoice = answerChoice.addEventListener("click", grade);
+var timerEl = document.getElementById('timer')
+var secondsLeft = 90
